@@ -1,0 +1,12 @@
+addition_str = "2+5+10+20"
+
+add_list = addition_str.split("+")
+
+acc = 0
+
+for add in add_list:
+    add_int = int(add)
+    acc = acc + add_int
+
+sum_val = acc
+print(sum_val)
