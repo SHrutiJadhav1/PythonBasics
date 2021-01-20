@@ -1,0 +1,4 @@
+lett = " " 
+
+for i in range(8):
+    lett.append('b')
